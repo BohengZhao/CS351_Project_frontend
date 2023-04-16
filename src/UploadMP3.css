@@ -1,0 +1,41 @@
+.upload-mp3-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  
+  .upload-mp3-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .dropzone {
+    border: 2px dashed #ccc;
+    border-radius: 2px;
+    padding: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .dropzone p {
+    margin: 0;
+  }
+  
+  .toastify-container {
+    z-index: 9999;
+  }
+  
+  .toastify-content {
+    border-radius: 4px;
+    padding: 12px;
+  }
+  
+  .toastify-success {
+    background-color: #4caf50;
+  }
+  
+  .toastify-error {
+    background-color: #f44336;
+  }
+  

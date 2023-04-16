@@ -1,0 +1,57 @@
+/* FrontPage.css */
+
+.front-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-image: url('https://st4.depositphotos.com/1756291/21823/i/600/depositphotos_218233574-stock-photo-music-sound-track-recorded-retro.jpg'); /* Replace with your image URL */
+    background-size: cover;
+  }
+  
+  .front-page-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://st4.depositphotos.com/1756291/21823/i/600/depositphotos_218233574-stock-photo-music-sound-track-recorded-retro.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    opacity: 0.5;
+    z-index:-1;
+  }
+  
+  .front-page-title {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .front-page-content {
+    font-size: 18px;
+    color: #010101;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .front-page-navigation {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .front-page-link {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .front-page-link:hover {
+    background-color: #0056b3;
+  }
