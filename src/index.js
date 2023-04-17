@@ -1,21 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import FrontPage from './pages/FrontPage';
 import reportWebVitals from './reportWebVitals';
-import UploadMP3 from './Upload';
-import FrontPage from './FrontPage';
-import UploadMP3_html from './Upload_html';
-import Download from './Download';
-import Linkables from './Linkable';
+
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <FrontPage />
-    <UploadMP3 />
-    <Linkables />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function

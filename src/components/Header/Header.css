@@ -1,0 +1,26 @@
+/* FrontPage.css */
+
+.front-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  background-image: url('https://st4.depositphotos.com/1756291/21823/i/600/depositphotos_218233574-stock-photo-music-sound-track-recorded-retro.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  margin-bottom: 3%;
+}
+
+.front-page-title {
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.front-page-content {
+  font-size: 18px;
+  color: #ffffff;
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 40px;
+}
