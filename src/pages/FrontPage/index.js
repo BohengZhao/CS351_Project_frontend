@@ -63,7 +63,9 @@ export default function FrontPage() {
         <Stack sx={{backgroundColor: 'white', padding: '5rem'}} spacing={2}>
           <LinearProgress color="success" />
           <Typography sx={{color: 'black'}}>Separation in progress. Please wait...</Typography>
-          <Typography sx={{color: 'gray'}}>The wait time can range from half of a minute to a couple of minutes, depending on the size of the uploaded audio file. A typical MP3 file of 30 seconds takes around 3 minutes for the neural network to complete the separation.</Typography>
+          <Typography sx={{color: 'gray'}}>
+            The wait time can range from half of a minute to a couple of minutes, depending on the size of the uploaded audio file. A typical MP3 file of 30 seconds takes around 3 minutes for the neural network to complete the separation.
+          </Typography>
         </Stack>
       )}
       {fileURLs && (
